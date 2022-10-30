@@ -24,3 +24,54 @@ I’m Yegor. I started learning Front-end in 2015, but after some time stopped d
 - Photoshop, Figma
 
 ---
+
+### Code Example
+
+**Task from Codewars:** Given a non-negative integer `n`, write a function `toBinary` which returns that number in a binary format.
+
+```
+function toBinary(n){
+  let str = "";
+  let i = 0;
+
+  while (n !== 1) {
+    str += (n % 2).toString();
+    n = Math.trunc(n / 2);
+    i++;
+  }
+  str += "1";
+
+  let num = Number(strReverse(str));
+  return num;
+}
+
+function strReverse(s) {
+  let str = "";
+
+  for (let i = s.length - 1; i >=0; i--) {
+    str += s[i];
+    console.log(s[i])
+  }
+
+  return str;
+```
+
+---
+
+### Courses
+
+[HTML курс Евгения Попова - YouTube](https://www.youtube.com/playlist?list=PLB86E02CE3735E3B6) (2015)<br>
+[CSS курс Евгения Попова - YouTube](https://www.youtube.com/playlist?list=PL6855EFB2BC8B7C7B) (2015)<br>
+HTMLAcademy<br>
+[JavaScript - Полный Курс По JavaScript (Включает 80 Задач) - Udemy](https://www.udemy.com/course/javascript-ru/)<br>
+
+**Education**
+
+1 year in **_[SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL](https://en.gstu.by/), Belarus_**
+
+---
+
+### Languages
+
+1. Russian - Native
+2. English - A2
